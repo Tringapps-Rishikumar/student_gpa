@@ -1,8 +1,13 @@
 package studentdetails;
+
+import java.util.logging.Logger;
+
 public class Student {
     String name;
     int age;
     int gpa;
+
+    Logger lol = Logger.getLogger("gpa");
     public Student(String name, int age, int gpa){
         this.name = name;
         this.age = age;
